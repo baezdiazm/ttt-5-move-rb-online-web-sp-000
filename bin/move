@@ -3,4 +3,5 @@
 require_relative '../lib/move.rb'
 
 move = gets.strip
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 # Code your CLI Here
