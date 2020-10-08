@@ -11,7 +11,7 @@ def input_to_index(input)
   converted
 end
 
-def move(arg1, arg2, arg3)
+def move(arg1, arg2, arg3 = "X")
 
 end
 # code your input_to_index and move method here!
