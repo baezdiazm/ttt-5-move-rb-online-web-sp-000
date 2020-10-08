@@ -4,7 +4,7 @@ require_relative '../lib/move.rb'
 
 index = gets.strip
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-if input_to_index == even?
+if input_to_index(index) == even?
   token = "O"
 else
   token = "X"
