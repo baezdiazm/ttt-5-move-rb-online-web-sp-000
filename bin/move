@@ -4,6 +4,11 @@ require_relative '../lib/move.rb'
 
 index = gets.strip
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+if input_to_index == even?
+  token = "O"
+else
+  token = "X"
+end
 
 puts "Welcome to Tic Tac Toe!"
 input_to_index(index)
