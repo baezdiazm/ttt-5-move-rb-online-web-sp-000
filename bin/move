@@ -7,7 +7,7 @@ index = input_to_index(input)
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 puts "Welcome to Tic Tac Toe!"
-move(board, index, token)
+move(board, index)
 
 
 # Code your CLI Here
