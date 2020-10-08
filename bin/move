@@ -6,5 +6,5 @@ move = gets.strip
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 puts "Welcome to Tic Tac Toe!"
-../lib/move.rb
+input_to_index(move)
 # Code your CLI Here
